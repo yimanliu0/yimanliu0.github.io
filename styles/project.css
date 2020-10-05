@@ -1,0 +1,156 @@
+/*portfolio*/
+
+body {
+    background-color: #FCFCFC !important;
+}
+
+.flex-container {
+    margin: 0% 2.3%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+}
+
+.long-card {
+    position: relative;
+    display: flex;
+    margin: 3%;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 400px;
+}
+
+.long-card > .image{
+    flex-grow: 1;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.long-card .title{
+    font-family: SF-Pro-Bold;
+    font-size: 36px;
+    color: white;
+}
+
+.long-card .role{
+    font-family: SF-Pro-Bold;
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.long-card .description{
+    font-family: SF-Pro-Regular;
+    font-size: 14px;
+    color: white;
+}
+
+.two-short-cards {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin: 3%;
+    justify-content: space-between;
+    margin-bottom: 6%;
+}
+
+.short-card {
+    position: relative;
+    display: flex;
+
+    margin-bottom: 1%;
+    min-width: 48%;
+    height: 400px;
+}
+
+.short-card > .image{
+    flex-grow: 1;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.short-card .title{
+    font-family: SF-Pro-Bold;
+    font-size: 28px;
+    color: white;
+}
+
+.short-card .role{
+    font-family: SF-Pro-Bold;
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.short-card .description{
+    font-family: SF-Pro-Regular;
+    font-size: 16px;
+    color: white;
+}
+
+img {
+    pointer-events: none;
+}
+
+.black-copy {
+    color: #222222 !important;
+}
+
+.neu {
+    background-color: #8B0000;
+}
+
+.neu img {
+    width: 180px;
+    position: absolute;
+    top: 13%;
+    left: 6%;
+}
+
+.neu .body {
+    width: 32%;
+    position: absolute;
+    top: 28%;
+    left: 60%;
+}
+
+.marriott {
+    background-color: #D3D3D3;
+}
+
+.marriott img {
+    width: 220px;
+    position: absolute;
+    top: 38%;
+    left: 64%;
+}
+
+.marriott .body {
+    width: 40%;
+    position: absolute;
+    top: 24%;
+    left: 8%;
+}
+
+.unc {
+    background-color: #00BFFF;
+}
+
+.unc img {
+    width: 200px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.unc .body {
+    width: 40%;
+    position: absolute;
+    top: 28%;
+    left: 55%;
+}
