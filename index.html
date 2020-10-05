@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project1</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about-me">About Me</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#index-portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#interest">Interest</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#connect">Connect</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/pic1.jpg" alt="background">
+      <div class="carousel-caption">
+        <h1 class="display-2">Welcome To</h1>
+        <h3>Yiman Liu's Homepage</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/pic2.jpg" alt="background">
+    </div>
+    <div class="carousel-item">
+      <img src="images/pic3.jpg" alt="background">
+    </div>
+  </div>  
+</div>
+
+<!-- About Me -->
+<div class="header-container" id="about-me">
+  <div class="inner-header-container">
+    <div class="name">
+      Yiman Liu
+    </div>
+    <div class="position">
+      <span class="span-about">Graduate Student at Northeastern University Studying Computer Science 💻
+        <br> Love Travel | Favorate: French Toast 🍞</span>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio -->
+<div class= "flex-container all-project-container" id="index-portfolio">
+  <a class="long-card neu">
+    <div class="image">
+      <img src="images/neu.png" alt="NEU"/>
+    </div>
+    <div class="body">
+      <div class="title">
+        Northeastern University
+      </div>
+      <div class="role">
+        Gradute Student (Sep 2019 - Expected Dec 2021)
+      </div>
+      <div class="description">
+        Relevent Coursework: Discrete Math, Object-Oriented Design, Algorithms, Computer Systems, Database Management Systems
+      </div>
+    </div>
+  </a>
+
+  <a class="long-card marriott" >
+    <div class="body">
+      <div class="title black-copy">
+        Marriott International
+      </div>
+      <div class="role black-copy">
+        Management Trainee (2018 - 2019)
+      </div>
+      <div class="description black-copy">
+        Developed and designed training programs for employees and conducted new hire training, on boarding, and mentoring programs
+        <br><br>
+      </div>
+    </div>
+    <div class="image">
+      <img src="images/marriott.png" alt="Marriott"/>
+    </div>
+  </a>
+
+  <a class="long-card unc" >
+    <div class="body">
+      <div class="title">
+        University of North Carolina, Chapel Hill
+      </div>
+      <div class="role">
+        Gradute Student (Sep 2016 - Aug 2017)
+      </div>
+      <div class="description">
+        Relevent Coursework: Leadership in Educational/Nonprofit Settings, Schools, Cultures, and Communities, Ethics and Education: From Global Problems to Classroom Dilemmas
+        <br><br>
+      </div>
+    </div>
+    <div class="image">
+      <img src="images/unc.png" alt="UNC"/>
+    </div>
+  </a>
+</div>
+
+<!-- Interests -->
+<hr class="my-4">
+<div id="interest" class="container-fluid padding">
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <h1 class="display-4">Interest</h1>
+      <hr class="my-4">
+    </div>
+  </div> 
+</div>
+
+<!--  Cards  -->
+<div class="container-fluid padding">
+  <div class="row padding">
+    <div class="col-md-4">
+      <div class="cards">
+        <img id="pic1" class="card-img-top" src="images/switss3.jpg" alt="Swiss">
+        <div class="card-body">
+          <h4 class="card-title">Swissland</h4>
+          <p class="card-text">Beautiful mountain and lake</p>
+          <a href="html1/moreInfo.html" class="btn btn-outline-secondary">See more</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="cards">
+        <img id="pic2" class="card-img-top" src="images/hawaii2.jpg" alt="Hawaii">
+        <div class="card-body">
+          <h4 class="card-title">Hawaii</h4>
+          <p class="card-text">Enjoy the sea</p>
+          <a href="html2/moreInfo.html" class="btn btn-outline-secondary">See more</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="cards">
+        <img id="pic3" class="card-img-top" src="images/thailand2.jpg" alt="Thailand">
+        <div class="card-body">
+          <h4 class="card-title">Thailand</h4>
+          <p class="card-text">Sunrise and sunset</p>
+          <a href="html3/moreInfo.html" class="btn btn-outline-secondary">See more</a>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <hr class="my-4">
+</div>
+
+<!-- Connect -->
+<div id="connect1" class="container-fluid padding">
+  <div class="row connect text-center">
+    <div class="col-12">
+      <h1 class="display-4">Connect</h1>
+    </div>
+    <hr>
+  </div> 
+</div>
+
+<div id="connect" class="container-fluid padding">
+  <div class="row connect text-center">
+    <div class="col-12"></div>
+    <div class="col-12 social padding">
+      <a href="https://www.facebook.com/profile.php?id=100006747220012"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/YimanLiu1"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/yiman-liu-239557138/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/yimanliu0/web-development"><i class="fab fa-github"></i></a>
+    </div>
+  </div> 
+</div>
+
+<!-- footer -->
+<div class="footer">
+  <div class="footerContent">
+    <p>&copy; Yiman Liu</p>
+  </div>     
+</div>
+<script src="scripts/main.js"></script>
+</body>
+</html>
