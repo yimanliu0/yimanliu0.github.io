@@ -1,1 +1,13 @@
-# yimanliu0.github.io
+# Yiman Liu's Homepage
+
+* Author: Yiman Liu
+* <a href="https://johnguerra.co/classes/webDevelopment_fall_2020/">CS 5610 Web Development Northeastern University Bay Area</a> 
+* Project Objective: Creating a homepage including students' basic information and contact information by using HTML, CSS, JavaScript and other grid, either Bootstrap or flexbox. 
+<img src="Yiman's-homepage.png" alt="Yiman's homepage"> 
+
+# Instructions / References
+* <a href="https://www.youtube.com/watch?v=9cKsq14Kfsw">Responsive Bootstrap Website Start To Finish with Bootstrap 4, HTML5 & CSS3</a> 
+* <a href="https://getbootstrap.com/docs/4.0/components/card/">Bootstrap Cards</a> 
+* <a href=https://getbootstrap.com/docs/4.0/layout/overview/>Bootstrap Containers</a> 
+* <a href=https://getbootstrap.com/docs/4.0/components/carousel//>Bootstrap Carousel</a> 
+* <a href=https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/>MDN</a> 
