@@ -15,9 +15,6 @@ html, body {
 .navbar-nav li {
   padding-right: 20px;
 }
-.nav-link {
-  font-size: 1.1em !important;
-}
 
 /* welcome */
 
@@ -86,7 +83,7 @@ html, body {
   letter-spacing: 0.1px;
 }
 
-/*portfolio*/
+/* portfolio */
 
 .flex-container {
     margin: 0% 2.3%;
@@ -166,9 +163,6 @@ html, body {
     font-size: 16px;
     color: white;
 }
-.black-copy {
-    color: #222222 !important;
-}
 .neu {
     background-color: #8B0000;
 }
@@ -215,7 +209,7 @@ html, body {
     left: 55%;
 }
 
-/*Interest*/
+/* Interest */
 
 .padding {
   padding-bottom: 5rem;
@@ -232,7 +226,7 @@ html, body {
   margin-bottom: 1rem;
 }
 
-/*connect*/
+/* connect */
 
 .connect {
   width: 100%;
@@ -268,7 +262,7 @@ html, body {
   color: #d5d5d5
 }
 
-/*footer*/
+/* footer */
 
 .footer {
     width:400px;
